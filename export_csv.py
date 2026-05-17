@@ -2,7 +2,7 @@ from pymongo import MongoClient
 import csv
 
 # MongoDB connection
-client = MongoClient("mongodb+srv://coumbaka72_db_user:Jassmine17#@cluster0.cxyephq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+client = MongoClient("mongodb+srv://coumbaka72_db_user:<password>@cluster0.cxyephq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 # Database and collection
 db = client["healthcare_db"]
