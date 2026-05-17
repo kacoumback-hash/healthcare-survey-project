@@ -4,7 +4,7 @@ from user import User
 
 app = Flask(__name__)
 # MongoDB connection
-client = MongoClient("mongodb+srv://coumbaka72_db_user:Jassmine17#@cluster0.cxyephq.mongodb.net/?tls=true&tlsAllowInvalidCertificates=true")
+client = MongoClient("mongodb+srv://coumbaka72_db_user:<password>@cluster0.cxyephq.mongodb.net/?tls=true&tlsAllowInvalidCertificates=true")
 client.admin.command('ping')
 db = client["healthcare_db"]
 collection = db["survey"]
